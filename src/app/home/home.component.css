@@ -10,7 +10,9 @@
     width: 100%;
    
 }
-
+.navbar-brand{
+    color:lightgray;
+}
 .nav-item{
     color: lightgray;
 }
