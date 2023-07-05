@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0 ;
+}
+
+.main-content{
+    background-color:#161616 ;
+    color:grey;
+    height: 100vh;
+    width: 100%;
+   
+}
