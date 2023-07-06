@@ -15,7 +15,10 @@
 }
 .nav-item{
     color: lightgray;
-    margin-left:30px !important;
-    margin-right:30px !important;
+    margin-left:20px !important;
+    margin-right:20px !important;
 }
-
+.my-icons{
+    color: lightgray;
+    margin-right: 2px !important;
+}
