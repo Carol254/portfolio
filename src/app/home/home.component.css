@@ -24,20 +24,31 @@
 }
 #description{
     text-align: center;
-    margin-top: 200px !important;
+    margin-top: 100px !important;
 }
 .myPhoto{
     margin-left: auto;
     margin-right: auto;
+    
 }
 .myPhoto >img{
     border:1px solid lightgray;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+  
 }
 .emoji{
     width: 20px;
     height: 20px;
     padding-bottom: 2px;
+}
+.navbar-toggler{
+    color: white !important;
+}
+.stacks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
