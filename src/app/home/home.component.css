@@ -23,6 +23,14 @@
     margin-right: 2px !important;
 }
 #description{
- text-align: center;
- margin-top: 200px !important;
+    text-align: center;
+    margin-top: 200px !important;
+}
+.myPhoto{
+    border:1px solid lightgray;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
