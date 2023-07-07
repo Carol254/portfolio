@@ -59,5 +59,20 @@
 .custom-toggler .navbar-toggler-icon {
     background-image: url("/assets/icons8-menu-50.png");
     padding-right: 5px !important;
-
 }
+@media only screen and (max-width: 768px) {
+    .stacks{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* background-color:lightgray; */
+        /* margin-right:200px;
+        margin-left: 200px; */
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    /* body {
+      background-color: lightblue;
+    } */
+  }
