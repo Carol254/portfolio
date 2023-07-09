@@ -39,4 +39,9 @@
   <h4 class="abt_text">
     Here's all you need to know about me
   </h4>
+  <div class="abt_cards d-flex">
+    <div class="card" *ngFor="let project of projects ">
+      {{project.name}}
+    </div>
+  </div>
 </section>

@@ -11,5 +11,19 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  projects: any[] = [
+    {
+      "name": "Douglas  Pace"
+    },
+    {
+      "name": "Mcleod  Mueller"
+    },
+    {
+      "name": "Day  Meyers"
+    },
+    {
+      "name": "Aguirre  Ellis"
+    }
+  ];
 
 }
