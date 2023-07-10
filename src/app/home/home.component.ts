@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   }
   projects: any[] = [
     {
-      "name": "Douglas  Pace"
+      "name": "She-Devs Kenya"
     },
     {
       "name": "Mcleod  Mueller"
