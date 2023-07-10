@@ -16,13 +16,13 @@ export class HomeComponent implements OnInit {
       "name": "She-Devs Kenya"
     },
     {
-      "name": "Mcleod  Mueller"
+      "name": "Music Player"
     },
     {
-      "name": "Day  Meyers"
+      "name": "Calculator"
     },
     {
-      "name": "Aguirre  Ellis"
+      "name": "Real Estate Management"
     }
   ];
 
