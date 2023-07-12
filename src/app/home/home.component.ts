@@ -19,9 +19,6 @@ export class HomeComponent implements OnInit {
       "name": "Music Player"
     },
     {
-      "name": "Calculator"
-    },
-    {
       "name": "Real Estate Management"
     }
   ];
