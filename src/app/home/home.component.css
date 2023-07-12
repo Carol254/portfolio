@@ -105,13 +105,14 @@
         margin-left: 200px; */
     }
     .stacks > div{
-        flex: 1 0 auto;
-        
+        flex: 1 0 auto; 
     }
+   
   }
 
-  @media only screen and (max-width: 1024px) {
-    /* body {
-      background-color: lightblue;
-    } */
+  @media only screen and (max-width: 425px) {
+    .abt_cards{
+        display: flex;
+        flex-direction: column;
+     }
   }
