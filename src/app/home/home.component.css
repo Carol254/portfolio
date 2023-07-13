@@ -90,8 +90,11 @@
 }
 .biography{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color:#161616 ;
+    color: lightgray;
 }
 @media only screen and (max-width: 768px) {
     .main-content{
