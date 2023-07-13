@@ -88,6 +88,11 @@
     text-align: center;
     margin: 3px;
 }
+.biography{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media only screen and (max-width: 768px) {
     .main-content{
         background-color:#161616 ;
