@@ -101,8 +101,8 @@
     color: #009d66;  
 }
 .abt_container{
-    width: 80%;
-    
+    width: 80%;  
+    margin-bottom: 40px; 
 }
 @media only screen and (max-width: 768px) {
     .main-content{
