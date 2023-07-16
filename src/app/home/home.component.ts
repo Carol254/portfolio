@@ -23,4 +23,27 @@ export class HomeComponent implements OnInit {
     }
   ];
 
+  myServices: any[] = [
+    {
+      "img":"",
+      "title": "",
+      "description":""
+    },
+    {
+      "img":"",
+      "title": "",
+      "description":""
+    },
+    {
+      "img":"",
+      "title": "",
+      "description":""
+    },
+    {
+      "img":"",
+      "title": "",
+      "description":""
+    }
+  ];
+
 }
