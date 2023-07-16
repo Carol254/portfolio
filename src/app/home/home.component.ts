@@ -26,22 +26,22 @@ export class HomeComponent implements OnInit {
   myServices: any[] = [
     {
       "img":"",
-      "title": "",
+      "title": "Web Development",
       "description":""
     },
     {
       "img":"",
-      "title": "",
+      "title": "UI/UX Design",
       "description":""
     },
     {
       "img":"",
-      "title": "",
+      "title": "Mobile App Development",
       "description":""
     },
     {
       "img":"",
-      "title": "",
+      "title": "Technical Writing",
       "description":""
     }
   ];

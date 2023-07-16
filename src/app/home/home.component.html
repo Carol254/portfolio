@@ -70,6 +70,13 @@
   <h6>SERVICES</h6>
   <h4>What I do...</h4>
   <div class="_line">|</div>
+  <div class="abt_cards d-flex">
+    <div class="card" *ngFor="let service of myServices">
+      {{service.img}}
+      {{service.title}}
+      {{service.description}}
+    </div>
+  </div>
 
 </section>
 
