@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
     {
       "img":"",
       "title": "Web Development",
-      "description":""
+      "description":"I love creating websites"
     },
     {
       "img":"",
