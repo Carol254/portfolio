@@ -10,7 +10,9 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
+
   projects: any[] = [
     {
       "name": "She-Devs Kenya"
@@ -32,7 +34,7 @@ export class HomeComponent implements OnInit {
     {
       "img":"",
       "title": "UI/UX Design",
-      "description":""
+      "description":" I love creating designs"
     },
     {
       "img":"",
