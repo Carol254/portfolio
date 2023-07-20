@@ -58,6 +58,12 @@
     /* margin-right:200px;
     margin-left: 200px; */
 }
+.inData{
+    border: none;
+    padding: 5px;
+    background-color: #312f2f;
+    color: #fff;
+}
 
 /* Setting the stroke to green using rgb values (0, 128, 0) */
  
