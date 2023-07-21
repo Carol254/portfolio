@@ -82,7 +82,7 @@
 
 <section class="about">
   <h4 class="abt_text">
-    Here's some of the projects I've worked on
+    Here's some of the projects I've worked on...
   </h4>
   <div class="abt_cards d-flex">
     <div class="card" *ngFor="let project of projects ">
@@ -91,16 +91,31 @@
   </div>
 </section>
 
-<section class="contactMe">
+<section class="about">
+
+  <h4 class="abt_text">
+    Contact Me...
+  </h4>
 
   <div class="d-flex row">
     <div class="col-6"></div>
 
-    <div class="col-6 flex-column">
-       <form >
+    <div class="col-6">
+       <form>
+          <label>FirstName</label>
+          <div>
             <input class="inData" type="name">
+          </div>
+          <label>Email</label>
+           <div> 
             <input class="inData" type="email">
-            <button>Submit</button>
+          </div>
+          <label>Message</label>
+           <div> 
+            <textarea class="inData"  placeholder="Type something..."></textarea>
+          </div>
+           
+            <button class="btn">Submit</button>
        </form>
     </div>
   </div>
