@@ -87,8 +87,12 @@
   <div class="abt_cards d-flex">
     <div class="card" *ngFor="let project of projects ">
       <img [src]="project.image">
-      <!-- {{project.name}}
-      <a href="{{project.link}}" target="_blank">Go to site</a> -->
+      <h3>{{project.name}}</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+        Quo quod nobis voluptate quibusdam fuga <br>
+      </p>
+     <b><a href="{{project.link}}" target="_blank" hidden></a> Go to Site <i class="bi bi-arrow-right"></i></b> 
     </div>
   </div>
 </section>
