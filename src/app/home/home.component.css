@@ -105,6 +105,9 @@
     text-align: center;
     margin: 3px;
 }
+.card > img{
+    object-fit: contain;
+}
 .biography{
     display: flex;
     flex-direction: column;

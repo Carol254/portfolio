@@ -16,7 +16,8 @@ export class HomeComponent implements OnInit {
   projects: any[] = [
     {
       "name": "She-Devs Kenya",
-      "link":"https://www.shedevs.ke/"
+      "link":"https://www.shedevs.ke/",
+      "image":"/assets/she-devs-screenshot.png"
     },
     {
       "name": "Music Player"

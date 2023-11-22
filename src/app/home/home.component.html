@@ -86,8 +86,9 @@
   </h4>
   <div class="abt_cards d-flex">
     <div class="card" *ngFor="let project of projects ">
-      {{project.name}}
-      <a href="{{project.link}}" target="_blank">hello</a>
+      <img [src]="project.image">
+      <!-- {{project.name}}
+      <a href="{{project.link}}" target="_blank">Go to site</a> -->
     </div>
   </div>
 </section>
