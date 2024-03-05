@@ -2,166 +2,32 @@
     margin: 0;
     padding: 0 ;
 }
-
-.main-content{
-    background-color:#161616 ;
-    color:lightgray;
+.main{
+    background-image: url('/assets/bg-nature.jpg');
     height: 100vh;
+    overflow: hidden;
     width: 100%;
-   
+    position: relative;
+    background-size: cover;
+    opacity:0.2;
 }
-.navbar-brand{
-    color:lightgray;
-    font-weight: 600;
-    /* -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0, 0, 0, 0.2)); */
-}
-.nav-item{
-    color: lightgray;
-    margin-left:20px !important;
-    margin-right:20px !important;
-}
- 
-
-.my-icons{
-    color: lightgray;
-    margin-right: 2px !important;
-}
-#description{
-    text-align: center;
-    margin-top: 100px !important;
-}
-.myPhoto{
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.myPhoto >img{
-    border:1px solid lightgray;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    object-fit: contain;
-  
-}
-.emoji{
-    width: 20px;
-    height: 20px;
-    padding-bottom: 2px;
-}
-.stacks{
-    display: flex;
+.content{
+    position: absolute;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    background-color:#161616 ;
-    /* background-color:lightgray; */
-    /* margin-right:200px;
-    margin-left: 200px; */
-}
-.inData{
-    width:80%;
-    border: 2px solid #fff;
-    padding: 5px;
-    margin: 5px 0;
-    background-color: #312f2f;
-    color: #fff;
-    border-radius:5px ;
+    display: flex;
 }
 
-.submit{
-    border: none;
-    background-color: #fff;
-    padding:5px;
-    border-radius: 5px;
-}
-
-/* Setting the stroke to green using rgb values (0, 128, 0) */
- 
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("/assets/icons8-menu-50.png");
-    padding-right: 5px !important;
-}
-.about{
-    background-color:#161616 ;
-    color:lightgray;
-    /* height: 100vh; */
-    width: 100%;
-
-}
-.abt_cards{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.about > .abt_text{
-    text-align: center;
-    
-}
-.card{
-    width: 200px;
-    height: 300px;
-    background-color:#312f2f;
-    color: lightgray;
-    text-align: center;
-    margin: 3px;
-}
-.card > img{
-    object-fit: contain;
-}
-.biography{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:#161616 ;
-    color: lightgray;
-}
-._line{
-    color: #009d66;  
-}
-.abt_container{
-    width: 80%;  
-    margin-bottom: 40px; 
-}
-.btn {
-    background-color: #009d66;
-    color:#fff;
-    padding: 8px;
-}
-.services{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:#161616 ;
-    color: lightgray;
-}
-@media only screen and (max-width: 768px) {
-    .main-content{
-        background-color:#161616 ;
-        color:lightgray;
-        height: 100%;   
+@media screen and (max-width:1024px) {
+    .main {
+        background-size: contain;
+        background-image: url('/assets/bg-nature.jpg');
+        width: 100%;
+        height: 100vh;
+        /* overflow: hidden; */
+        position: relative;
+        background-size: cover;
     }
-    .stacks{
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-color:#161616 ;
-    }
-    .stacks > div{
-        flex: 1 0 auto; 
-    }
-    .abt_cards{
-        display: flex;
-        flex-direction: column;
-     }
-   
-  }
 
-  @media only screen and (max-width: 425px) {
-    .abt_cards{
-        display: flex;
-        flex-direction: column;
-     }
-  }
+}
+
