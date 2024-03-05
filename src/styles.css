@@ -2,3 +2,12 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
+:root{
+    --background-height: 100vh;
+    --site-language-alignment: left;
+    --site-language-direction: ltr;
+    --site-language-flex-alignment: flex-start;
+    --site-language-indent-left: 1;
+    --site-language-indent-right: 0;
+    --viewport-height: 100vh;
+}
