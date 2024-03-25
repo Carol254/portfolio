@@ -106,36 +106,7 @@
     border-radius: inherit;
     text-align: var(--alignment);
 }
-.image {
-    display: block;
-    line-height: 0;
-    max-width: 100%;
-    position: relative;
-}
-.image.style2 .frame {
-    width: 8rem;
-    border-radius: 100%;
-    border-color: #FFFFFF;
-    border-style: solid;
-    border-width: 10px;
-    transition: none;
-}
-.image .frame {
-    display: inline-block;
-    max-width: 100%;
-    overflow: hidden;
-    vertical-align: top;
-    width: 100%;
-}
-.image.style2 .frame img {
-    transition: none;
-}
-.image .frame img {
-    border-radius: 0 !important;
-    max-width: 100%;
-    vertical-align: top;
-    width: inherit;
-}
+
 h1.style1, h2.style1, h3.style1, p.style1 {
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
@@ -152,16 +123,7 @@ h1.style3, h2.style3, h3.style3, h4.style3, h5.style3, p.style3 {
     line-height: 1.125;
     font-weight: 400;
 }
-h1.style5, h2.style5, h3.style5, p.style5 {
-    text-transform: uppercase;
-    color: #FFFFFF;
-    font-family: 'Inter', sans-serif;
-    letter-spacing: 0.4rem;
-    width: calc(100% + 0.4rem);
-    font-size: 0.75em;
-    line-height: 1.875;
-    font-weight: 600;
-}
+
 h1.style6, h2.style6, h3.style6, p.style6 {
     color: #4A4A4A;
     font-family: 'Inter', sans-serif;
@@ -169,16 +131,7 @@ h1.style6, h2.style6, h3.style6, p.style6 {
     line-height: 2;
     font-weight: 300;
 }
-h1.style7, h2.style7, h3.style7, p.style7 {
-    text-transform: uppercase;
-    color: #4A4A4A;
-    font-family: 'Inter', sans-serif;
-    letter-spacing: 0.4rem;
-    width: calc(100% + 0.4rem);
-    font-size: 0.75em;
-    line-height: 1.875;
-    font-weight: 600;
-}
+
 h1.style8, h2.style8, h3.style8, p.style8 {
     color: #4A4A4A;
     font-family: 'DM Serif Text', serif;
@@ -192,14 +145,7 @@ h1, h2, h3, p {
     direction: var(--site-language-direction);
     position: relative;
 }
-h1.style4, h2.style4, h3.style4, p.style4 {
-    text-align: center;
-    color: #4A4A4A;
-    font-family: 'DM Serif Text', serif;
-    font-size: 5.625em;
-    line-height: 1.125;
-    font-weight: 400;
-}
+
 .buttons.style3:not(:first-child) {
     margin-top: 2.75rem !important;
 }
@@ -308,14 +254,7 @@ ol, ul {
     --padding-vertical: 6rem;
     padding: var(--padding-vertical) var(--padding-horizontal);
 }
-.image.style1 .frame {
-    width: 100vw;
-    height: 27rem;
-    transition: none;
-}
-.image.full .frame {
-    display: block;
-}
+
 .buttons.style1:not(:last-child) {
     margin-bottom: 2.75rem !important;
 }
@@ -363,12 +302,7 @@ ol, ul {
     flex-direction: row-reverse;
     transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
-.image.style1 img {
-    height: 100% !important;
-    object-fit: cover;
-    object-position: center;
-    width: 100% !important;
-}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
@@ -377,30 +311,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font: inherit;
     vertical-align: baseline;
 }
-.image.full:last-child .frame {
-    border-bottom-left-radius: inherit;
-    border-bottom-right-radius: inherit;
-}
-.image.style1 .frame {
-    width: 100vw;
-    height: 27rem;
-    transition: none;
-}
-.image.full .frame {
-    display: block;
-}
-.image .frame {
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translate3d(0, 0, 0);
-    display: inline-block;
-    max-width: 100%;
-    overflow: hidden;
-    vertical-align: top;
-    width: 100%;
-}
-.image.style1 .frame img {
-    transition: none;
-}
+
 .icons.style1 {
     font-size: 2.0em;
     gap: 1.5rem;
